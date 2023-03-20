@@ -2,16 +2,16 @@
   "name": "cookbookmenu_npm",
   "version": "1.0.3",
   "description": "Start ACN apps with ease",
-  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "main": "./index.js",
   "bin": {
     "cookbookmenu_npm": "./index.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/deryvad/cookbookmenu_npm"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "davyred013@gmail.com",
   "license": "ISC"
