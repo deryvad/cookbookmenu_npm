@@ -1,0 +1,13 @@
+node_modules
+.serverless
+.webpack
+package-lock.json
+dist
+localfiles
+/build
+/package
+cert.pem
+key.pem
+server.crt
+server.key
+lib
