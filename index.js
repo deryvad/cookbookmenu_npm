@@ -1,6 +1,6 @@
+#! /usr/bin/env node
+
 const fs = require("fs");
-
-
 const backendindex = process.argv.indexOf("--backend")
 const frontendindex = process.argv.indexOf("--frontend")
 const source = "./node_modules/cookbookmenu_npm/source_code";
