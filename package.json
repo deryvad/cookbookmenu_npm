@@ -1,10 +1,14 @@
 {
   "name": "cookbookmenu_npm",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Start ACN apps with ease",
   "main": "index.js",
   "bin": {
     "create_app": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deryvad/cookbookmenu_npm"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
