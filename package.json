@@ -7,8 +7,12 @@
   },
   "main": "./index.js",
   "bin": {
-    "create_app": "./index.js"
+    "create_acn_app": "./index.js"
   },
+  "files": [
+    "./index.js",
+    "./source_code"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/deryvad/cookbookmenu_npm"

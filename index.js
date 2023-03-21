@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 
 const fs = require("fs");
+const path = require("path");
 const backendindex = process.argv.indexOf("--backend")
 const frontendindex = process.argv.indexOf("--frontend")
-const source = "./node_modules/cookbookmenu_npm/source_code";
+const source = path.join(__dirname, 'source_code');
 
 if(backendindex > -1) {
     const folder = process.argv[backendindex + 1];
