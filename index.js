@@ -9,7 +9,7 @@ const source = path.join(__dirname, 'source_code');
 if(backendindex > -1) {
     const folder = process.argv[backendindex + 1];
     const src = `${source}/backend/${folder}`
-    const dest = `./${folder}`
+    const dest = `./api`
     fs.cp(src, dest, {recursive: true}, () => { 
         console.log("backend code copied")
     });    
@@ -18,7 +18,7 @@ if(backendindex > -1) {
 if(frontendindex > -1) {
     const folder = process.argv[frontendindex + 1];
     const src = `${source}/frontend/${folder}`
-    const dest = `./${folder}`
+    const dest = `./client`
     fs.cp(src, dest, {recursive: true}, () => { 
         console.log("front code copied")
     });    
