@@ -1,6 +1,6 @@
 {
   "name": "cookbookmenu_npm",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Start ACN apps with ease",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
